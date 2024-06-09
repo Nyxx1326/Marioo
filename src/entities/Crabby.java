@@ -2,6 +2,8 @@ package entities;
 
 import static utilz.Constants.EnemyConstants.*;
 
+import main.Game;
+
 public class Crabby extends Enemy {
 
 	public Crabby(float x, float y) {
