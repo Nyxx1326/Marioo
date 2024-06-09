@@ -9,7 +9,6 @@ public abstract class Enemy extends Entity {
         intHitbos(x, y, width, height);       
 
     }
-    protected abstract void intHitbos(float x, float y, int width, int height);
     private void updateAnimationTick(){
         aniTick ++;
         if(aniTick >= aniSpeed){
